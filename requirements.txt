@@ -1,0 +1,6 @@
+strands-agents
+bedrock-agentcore
+requests
+mcp
+python-dotenv
+boto3
