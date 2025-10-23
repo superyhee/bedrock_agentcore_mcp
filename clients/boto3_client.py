@@ -49,6 +49,7 @@ agent_core_client = boto3.client('bedrock-agentcore', region_name='us-west-2')
 
 # Example questions to test - 多场景对话测试集
 test_questions = [
+    
     # 场景1: 用户信息收集 + 个性化推荐
     "我家的地址是:北京海淀区上地十街10号，我的办公室在:北京朝阳区人寿保险大厦，我的爱好是出门赏花，我喜欢吃海鲜",
     "我住在北京海淀区附近，我想早上8点出门，中午顺路找个地方吃饭，下午继续玩，帮我根据我的爱好规划一个一天游玩的规划",
