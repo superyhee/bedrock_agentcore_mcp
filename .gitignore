@@ -1,6 +1,3 @@
-# 环境变量
-.env
-
 # Python
 __pycache__/
 *.py[cod]
@@ -22,16 +19,17 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# 虚拟环境
+# Virtual Environment
+.venv/
 venv/
 ENV/
 env/
-.venv
 
-# AgentCore
-.bedrock_agentcore/
-.bedrock_agentcore.yaml
+# Environment Variables
+.env
+.env.local
 
 # IDE
 .vscode/
@@ -40,13 +38,12 @@ env/
 *.swo
 *~
 
-# 操作系统
-.DS_Store
-Thumbs.db
+# AWS
+.bedrock_agentcore.yaml
 
-# 日志
+# Logs
 *.log
 
-# 临时文件
-*.tmp
-*.bak
+# OS
+.DS_Store
+Thumbs.db

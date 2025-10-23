@@ -5,7 +5,7 @@
 
 import asyncio
 import json
-from agentcore_baidu_map_agent import invoke
+from src.agent.main import invoke
 
 
 class MockContext:
